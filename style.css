@@ -1,0 +1,57 @@
+/*
+Theme Name: Deetheme
+Theme URI: http://adeetheming.com/wordpress/deetheme
+Author: Adeecore
+Author URI: http://adeetheming.com/
+Description: Deetheme Premium Event Theme.
+Version: v1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, green, pink, purple, dark, right-sidebar, two-columns, responsive-layout
+Text Domain: adeecore
+*/
+
+
+@import url('css/flexslider.css');
+
+.btn-lg{ border-radius: 0px; }
+.gallery-caption{ }
+.bypostauthor{ }
+#mailchimp-id{ display:none; }
+.screen-reader-text{}
+
+.btn-yellow .acton-btn:hover {
+    background-color: #B8BF25;
+}
+.btn-yellow .acton-btn {
+    color: #000;
+    background-color: #cbd504;
+    padding: 13px 28px;
+    border-radius: 3px;
+    font-weight: 400;
+    margin-top: 20px;
+    display: inline-block;
+}
+.adeetheming-clients {
+    background-color: #ecedee;
+    padding: 70px 30px 30px 30px;
+}
+.client-image {
+    display: block;
+    float: right;
+    top: -100px;
+    position: relative;
+}
+.client-image img {
+    width: 60px;
+}
+.client-name {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+    color: #2a303b;
+}
+h4.speaker-title, .speaker-designation {
+    text-align: left;
+    color: #424242;
+}

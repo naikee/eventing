@@ -1,0 +1,35 @@
+/************************************
+*
+*		Admin Backend Extra CSS
+*
+************************************/
+
+.vc_datetime_block.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+input.datetime_field {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+}
+input.datetime_field, .input-group-addon {
+    display: table-cell;
+}
+span.input-group-addon {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+span.input-group-addon {
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+}
